@@ -1,0 +1,44 @@
+Passo 1: Instalação do Create React App
+
+O create-react-app é uma ferramenta que facilita a inicialização de projetos React. Para instalá-lo globalmente, execute o seguinte comando no seu terminal:
+npm install -g create-react-app
+
+Passo 2: Criar um novo projeto React
+
+Agora, vamos criar um novo projeto React usando o create-react-app. Substitua "nome-do-projeto" pelo nome que deseja dar ao seu projeto.
+npx create-react-app nome-do-projeto
+
+Passo 3: Navegar para o diretório do projeto
+
+Vamos entrar no diretório do projeto recém-criado.
+cd nome-do-projeto
+
+Passo 4: Executar o aplicativo React
+
+Agora, você pode iniciar o aplicativo React com o seguinte comando:
+npm start
+
+Este comando inicia o servidor de desenvolvimento e abre automaticamente o seu aplicativo no navegador padrão. Qualquer alteração que você fizer nos arquivos do projeto será refletida automaticamente no navegador.
+
+Passo 5: Editar o código
+
+Agora, você pode começar a editar o código no seu editor de texto preferido. Os arquivos principais estão localizados no diretório src. O arquivo src/App.js é o ponto de partida do seu aplicativo.
+
+Por exemplo, você pode alterar o conteúdo de src/App.js para algo assim:
+import React from 'react';
+
+function App() {
+  return (
+    <div>
+      <h1>Meu Primeiro Aplicativo React</h1>
+      <p>Bem-vindo ao React!</p>
+    </div>
+  );
+}
+
+export default App;
+
+Passo 6: Visualizar as alterações
+
+Depois de fazer suas alterações, salve os arquivos. O servidor de desenvolvimento irá automaticamente recarregar seu aplicativo com as alterações mais recentes.
+Basta verificar o navegador para ver suas atualizações.
