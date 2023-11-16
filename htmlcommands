@@ -1,0 +1,49 @@
+<!DOCTYPE html> <!-- Define o tipo do documento como html -->
+<html lang="pt-br"> <!-- Define o idioma como português -->
+<head>
+    <!-- Metadados -->
+    <meta charset="UTF-8"> <!-- Define o conjunto de caracteres da página como UTF-8 -->
+    <meta name="description" content="Exemplo de página HTML"> <!-- Descrição da página para motores de busca -->
+    <title>Minha Página</title> <!-- Título da página exibido na barra do navegador -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Ícone exibido na guia do navegador -->
+</head>
+<body>
+
+    <!-- Separação de Conteúdo -->
+    <h1>Título Principal</h1> <!-- Cabeçalho de nível 1 -->
+    <p>Este é um parágrafo de texto.</p> <!-- Parágrafo de texto -->
+    <h2>Subtítulo</h2> <!-- Cabeçalho de nível 2 -->
+    <p>Outro parágrafo de texto.</p> <!-- Outro parágrafo de texto -->
+
+    <!-- Texto -->
+    <p>Este é um parágrafo com <strong>texto enfatizado</strong>.</p> <!-- Texto enfatizado -->
+    <p>Este é um parágrafo com <em>texto em itálico</em>.</p> <!-- Texto em itálico -->
+
+    <!-- Imagem -->
+    <img src="imagem.jpg" alt="Descrição da imagem"> <!-- Inserção de imagem -->
+    
+    <figure>
+        <img src="foto.jpg" alt="Uma bela paisagem"> <!-- Imagem dentro da tag figure -->
+        <figcaption>Uma bela paisagem natural.</figcaption> <!-- Legenda para a imagem -->
+    </figure>
+
+    <!-- Formulário -->
+    <form action="/processar-formulario" method="post">
+        <label for="nome">Nome:</label> <!-- Rótulo para o campo de entrada de texto -->
+        <input type="text" id="nome" name="nome" required> <!-- Campo de entrada de texto para o nome -->
+        <br>
+        <label for="email">Email:</label> <!-- Rótulo para o campo de entrada de email -->
+        <input type="email" id="email" name="email" required> <!-- Campo de entrada de email -->
+        <br>
+        <button type="submit">Enviar</button> <!-- Botão de envio do formulário -->
+    </form>
+
+    <form action="/processar-comentarios" method="post">
+        <label for="comentarios">Comentários:</label> <!-- Rótulo para a área de texto -->
+        <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea> <!-- Área de texto para comentários -->
+        <br>
+        <button type="submit">Enviar</button> <!-- Botão de envio do formulário -->
+    </form>
+
+</body>
+</html>
