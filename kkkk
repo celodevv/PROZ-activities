@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ponto Turístico</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .point-of-interest {
+            text-align: center;
+        }
+
+        .point-of-interest img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        .point-of-interest h2 {
+            color: #333;
+        }
+
+        .point-of-interest p {
+            color: #666;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="point-of-interest">
+        <img src="https://registro.sp.gov.br/turismo/wp-content/uploads/2022/06/kkkk-Foto-Ken-Chu-Expressao-Estudio-2048x1171.jpg" alt="Imagem do Ponto Turístico">
+        <h2>KKKK (Kaigai Kogyo Kabushiki Kaisha)</h2>
+        <p>
+            O Conjunto Arquitetônico KKKK, conhecido também como antigo Casarão do Porto, é um conjunto composto por quatro armazéns e um engenho, que era destinado ao beneficiamento de arroz, e que começaram a ser construídos em 1920, tornando-se o referencial das histórias individuais e coletivas da imigração, pois tinha o intuito de apoiar os imigrantes japoneses e centralizar as operações comerciais, industriais e burocráticas da Empresa: “KKKK” (Kaigai Kogyo Kabushiki Kaisha), que significa em japonês: Companhia Ultramarina de Suplementos S/A. Pela sua importância histórica e arquitetônica, o Conselho de Defesa do Patrimônio Histórico, Arqueológico, Artístico e Turístico do Estado de São Paulo (CONDEPHAAT) tombou o prédio do K.K.K.K em 1987 e pelo Instituto do Patrimônio Histórico Artístico Nacional (IPHAN) em Junho de 2010.
+
+O espaço também abrigou por muito tempo o “Memorial da Imigração Japonesa no Vale do Ribeira”, cujo acervo conta a história e os costumes dos primeiros imigrantes japoneses.
+
+Desde 2016, o SESC está instalado no local, com atividades destinadas à cultura, ao esporte, à saúde e alimentação, ao desenvolvimento infanto-juvenil, à terceira idade, ao turismo social e as demais áreas de atuação, sendo a primeira unidade na região do Vale do Ribeira.
+        </p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2023 Registro, São Paulo</p>
+</footer>
+
+</body>
+</html>
